@@ -1,0 +1,39 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #498ac6;
+}
+
+li.t {
+    float: left;
+}
+
+li.t a.active {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+/* Change the link color to #315c84 (black) on hover */
+li.t a.active:hover {
+    background-color: #315c84;
+}
+.active {
+    background-color: #498ac6;
+
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li.t {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+Try it Yourself »
